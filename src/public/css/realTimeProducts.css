@@ -6,6 +6,7 @@ main {
 }
 
 h1 {
+	color: blue;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -17,6 +18,7 @@ form {
 	height: 400px;
 	padding: 20px 20px 0 20px;
 	border: 1px solid black;
+	border-radius: 8px;
 }
 
 form input {
@@ -33,4 +35,12 @@ form button {
 	width: 400px;
 	margin-bottom: 8px;
 	border-bottom: 1px solid black;
+}
+.product-container .item{
+	color: black;
+	font-weight: bold;
+}
+
+form label{
+	color: rgb(64, 64, 64);
 }
